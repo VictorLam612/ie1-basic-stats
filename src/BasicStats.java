@@ -31,6 +31,8 @@ public class BasicStats {
     NumbersView numbersView = new NumbersView();
     AddNumView addNumView = new AddNumView();
     ResetView resetView = new ResetView();
+    MinView minView = new MinView();
+    MaxView maxView = new MaxView();
 
     //Create statsView
     ArrayList<View> statsViews = new ArrayList<View>();
@@ -38,6 +40,8 @@ public class BasicStats {
     statsViews.add(medianView);
     statsViews.add(meanView);
     statsViews.add(modeView);
+    statsViews.add(minView);
+    statsViews.add(maxView);
 
     /***** REGISTER MVC BLOCK *****/
 
